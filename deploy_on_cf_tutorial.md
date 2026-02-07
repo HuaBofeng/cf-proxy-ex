@@ -7,7 +7,7 @@
 > 经过实际测试，Cloudflare代理会将你的真实IP通过`X-Forwarded-For`、`X-Real-Ip`、`Cf-Connecting-Ip`传递给目标网站，可能导致个人信息泄漏。同时，它还会通过`Cf-Worker`将你的Worker域名发送给目标网站。
 
 ![实际测试](img/depoly/cf/cf_realip.png)
-
+ 
 # 步骤
 
 * 登录https://dash.cloudflare.com/
